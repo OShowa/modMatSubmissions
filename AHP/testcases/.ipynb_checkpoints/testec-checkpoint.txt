@@ -1,0 +1,15 @@
+Carro 1
+ Preço: 1
+ Potência: 1
+ Consumo: 1
+ Estilo: 1
+Carro 2
+ Preço: 1/2
+ Potência: 7
+ Consumo: 11/18
+ Estilo: 9
+Carro 3
+ Preço: 2/3
+ Potência: 5
+ Consumo: 17/18
+ Estilo: 5

@@ -1,0 +1,7 @@
+Desempenho
+ 1 1/5
+ 5 1
+Comprar Carro Novo
+ 1   5   8
+ 1/5 1   3
+ 1/8 1/3 1
