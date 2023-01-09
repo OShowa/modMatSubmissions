@@ -47,6 +47,7 @@ def plot_space(listA, listB):
     plt.xlabel('x')
     plt.ylabel('y')
     plt.grid()
+    plt.show()
 
 
 def plot_animate(listA, listB, timespace):
@@ -63,14 +64,14 @@ def plot_animate(listA, listB, timespace):
 
     step = len(listA) // nframes
 
+
     for i in range(0, len(listA), step):
         xA, yA = listA[i][0], listA[i][1]
-        xB, yB = listB[i][0], listB[i][0]
+        xB, yB = listB[i][0], listB[i][1]
 
         impack = []
         impack.append(ax.scatter(xA, yA, c='blue'))
         impack.append(ax.scatter(xB, yB, c='red'))
-
         ims.append(impack)
 
     ani = animation.ArtistAnimation(fig, ims, interval=20, blit=True)
