@@ -79,7 +79,8 @@ def plot_animate(listA, listB, timespace):
 
 def plot_speeds(listA, listB, timeframe, twobodies=True):
 
-    print(listA[:20])
+    print('velB:', listA[:10])
+    print('velA:', listB[:10])
 
     plt.plot(timeframe, listA, c='blue')
     if twobodies:
